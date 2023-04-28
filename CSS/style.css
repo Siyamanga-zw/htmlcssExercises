@@ -74,3 +74,57 @@ main{
 .p{
     text-align:center;
 }
+.Land{
+    background-color: rgb(182,160,149);
+    margin:none;
+    padding-top: 40px;
+    height: 170px;
+    width:auto;
+    text-align: center;
+    box-sizing: inherit;
+    padding-bottom: 40px;
+    white-space: pre-line;}
+    button{
+        width:100px;
+        height:30px;
+        background-color: rgb(182,160,149);
+    border:none;}
+    button:hover{
+        background-color: black;
+        color: aliceblue;
+
+    }
+    .column{
+        text-align: center;
+        width:33.33%;
+        text-align: center;
+    }
+   .last{
+    background-color: aliceblue;
+    border: black;
+    color:gray;
+    width:150px;
+    height: 35px;
+    border-style: solid;
+    border-width: 1.3px;
+
+
+}
+.last:hover{
+    background-color: rgb(182,160,149);
+    color:rgb(135,114,103);
+
+}
+    
+    
+
+
+    border: none;
+}
+::before::after{
+    box-sizing: inherit;
+}
+.column2{
+    float:left;
+
+}
