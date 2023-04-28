@@ -1,0 +1,76 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+nav{
+    background-color: rgb(46, 43, 43);
+    color: rgb(109, 116, 124);
+    width: 100%;
+   
+
+}
+.logo{
+   
+    font-size: 35px;
+    font-family: @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+}
+ul{
+    float:right;
+    text-decoration: none;
+    margin-right: 20px;
+}
+li{
+    display: inline-block;
+    margin:0px 7px;
+    color: rgb(109, 116, 124);
+}
+li a{
+    color: rgb(109, 116, 124);  
+}
+li a:hover{
+    color:rgb(148, 132, 113);
+}
+main{
+    display: inline;
+}
+.headingP{
+    text-align: center;
+    font-size: 24px;
+    fon
+}
+.column{
+    float:left;
+    width:33.33%;
+    padding:20px;
+    text-align:center;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.text{
+    padding-left: 70px;
+    text-align: center;
+    font-size: 19px;
+    color: rgb(90, 82, 82);
+}
+.text2{
+    padding-right:70px ;
+    text-align: center;
+    font-size: 19px;
+
+    color: rgb(90, 82, 82);
+}
+.hdings{
+    font-size: 18px;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+}
+.p{
+    text-align:center;
+}
